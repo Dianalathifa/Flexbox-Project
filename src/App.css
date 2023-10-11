@@ -1,3 +1,4 @@
+/* Gaya umum */
 .App {
   text-align: center;
 }
@@ -36,3 +37,48 @@
     transform: rotate(360deg);
   }
 }
+
+/* Gaya footer */
+.footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Gaya footer-content */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Gaya teks footer */
+.footer h3, .footer h4, .footer p {
+  margin: 5px 0; /* Menambahkan jarak antara elemen teks */
+  font-family: Arial, sans-serif; /* Mengubah jenis huruf ke Arial atau jenis huruf sans-serif lainnya */
+  font-size: 16px; /* Ukuran huruf */
+}
+
+/* Gaya teks nama perusahaan */
+.footer h3 {
+  font-size: 24px; /* Ukuran huruf yang lebih besar untuk nama perusahaan */
+}
+
+/* Gaya teks kontak */
+.footer h4 {
+  font-weight: bold; /* Menambahkan tebal pada judul kontak */
+}
+
+/* Gaya teks alamat */
+.footer p:last-child {
+  margin-bottom: 0; /* Menghapus jarak bawah pada elemen terakhir */
+}
+
+
+
+
+

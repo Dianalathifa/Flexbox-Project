@@ -1,0 +1,30 @@
+/* Gaya elemen anak */
+.flex-item {
+    width: 250px; /* Lebar item yang lebih besar */
+    height: 250px; /* Tinggi item yang lebih besar */
+    background-color: #23292d;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
+    margin-bottom: 20px; /* Menambahkan margin bawah untuk mencegah tumpang tindih dengan footer */
+    border: 2px solid #000; /* Border item */
+    border-radius: 10px; /* Sudut bulat item */
+}
+
+
+/* Gaya gambar yang lebih besar */
+.gambar-kecil {
+    max-width: 100%; /* Memaksimalkan lebar gambar sesuai dengan kotak item */
+    max-height: 100%; /* Memaksimalkan tinggi gambar sesuai dengan kotak item */
+}
+
+/* Gaya elemen induk */
+.flex-container {
+    display: flex;
+    flex-direction: row; /* Mengatur item-item agar sejajar ke samping */
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+

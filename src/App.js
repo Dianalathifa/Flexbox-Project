@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ContohNavbar from './components/Navbar';
+import ContohCard from './components/Card';
+import FlexContainer from './FlexContainer';
+import Footer from './components/Footer.js'; // Anda perlu membuat komponen Footer terlebih dahulu
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ContohNavbar /> {/* Tambahkan komponen Navbar */}
+      <div className="content">
+        <ContohCard /> {/* Tambahkan komponen Card atau konten lainnya */}
+        <FlexContainer /> {/* Tambahkan konten lain jika diperlukan */}
+      </div>
+      <Footer /> {/* Tambahkan komponen Footer di sini */}
     </div>
   );
 }
